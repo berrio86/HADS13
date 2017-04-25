@@ -1,0 +1,8 @@
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\bin\Release\componenteCorreo.dll
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\bin\Release\componenteCorreo.pdb
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\bin\Release\componenteCorreo.xml
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\obj\Release\componenteCorreo.Resources.resources
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\obj\Release\componenteCorreo.vbproj.GenerateResource.Cache
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\obj\Release\componenteCorreo.dll
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\obj\Release\componenteCorreo.xml
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\obj\Release\componenteCorreo.pdb

@@ -1,0 +1,16 @@
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\conexionDB\bin\Debug\conexionDB.dll
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\conexionDB\bin\Debug\conexionDB.pdb
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\conexionDB\bin\Debug\conexionDB.xml
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\conexionDB\obj\Debug\conexionDB.Resources.resources
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\conexionDB\obj\Debug\conexionDB.vbproj.GenerateResource.Cache
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\conexionDB\obj\Debug\conexionDB.dll
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\conexionDB\obj\Debug\conexionDB.xml
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\conexionDB\obj\Debug\conexionDB.pdb
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\conexionDB\bin\Debug\conexionDB.dll
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\conexionDB\bin\Debug\conexionDB.pdb
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\conexionDB\bin\Debug\conexionDB.xml
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\conexionDB\obj\Debug\conexionDB.Resources.resources
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\conexionDB\obj\Debug\conexionDB.vbproj.GenerateResource.Cache
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\conexionDB\obj\Debug\conexionDB.dll
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\conexionDB\obj\Debug\conexionDB.xml
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\conexionDB\obj\Debug\conexionDB.pdb

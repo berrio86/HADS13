@@ -1,0 +1,16 @@
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\Servicios web\obj\Debug\Servicios_web.Resources.resources
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\Servicios web\obj\Debug\Servicios web.vbproj.GenerateResource.Cache
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\Servicios web\bin\Servicios web.dll
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\Servicios web\bin\Servicios web.pdb
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\Servicios web\bin\Servicios web.xml
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\Servicios web\obj\Debug\Servicios web.dll
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\Servicios web\obj\Debug\Servicios web.xml
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\Servicios web\obj\Debug\Servicios web.pdb
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\Servicios web\bin\Servicios web.dll
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\Servicios web\bin\Servicios web.pdb
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\Servicios web\bin\Servicios web.xml
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\Servicios web\obj\Debug\Servicios_web.Resources.resources
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\Servicios web\obj\Debug\Servicios web.vbproj.GenerateResource.Cache
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\Servicios web\obj\Debug\Servicios web.dll
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\Servicios web\obj\Debug\Servicios web.xml
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\Servicios web\obj\Debug\Servicios web.pdb

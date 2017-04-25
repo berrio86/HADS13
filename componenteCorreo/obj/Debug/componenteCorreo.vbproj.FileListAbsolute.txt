@@ -1,0 +1,16 @@
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\bin\Debug\componenteCorreo.dll
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\bin\Debug\componenteCorreo.pdb
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\bin\Debug\componenteCorreo.xml
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\obj\Debug\componenteCorreo.Resources.resources
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\obj\Debug\componenteCorreo.vbproj.GenerateResource.Cache
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\obj\Debug\componenteCorreo.dll
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\obj\Debug\componenteCorreo.xml
+C:\Users\berrio\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\obj\Debug\componenteCorreo.pdb
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\bin\Debug\componenteCorreo.dll
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\bin\Debug\componenteCorreo.pdb
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\bin\Debug\componenteCorreo.xml
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\obj\Debug\componenteCorreo.Resources.resources
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\obj\Debug\componenteCorreo.vbproj.GenerateResource.Cache
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\obj\Debug\componenteCorreo.dll
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\obj\Debug\componenteCorreo.xml
+C:\Users\Julen Aja\Documents\Visual Studio 2012\Projects\ProyectoHADS\componenteCorreo\obj\Debug\componenteCorreo.pdb

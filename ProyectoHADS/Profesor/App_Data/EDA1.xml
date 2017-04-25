@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes"?>
+<tareas xmlns:has="http://ji.ehu.es/has">
+  <tarea>
+    <codigo>12:15 </codigo>
+    <descripcion>probando </descripcion>
+    <hestimadas>0</hestimadas>
+    <explotacion>false</explotacion>
+    <tipotarea>Laboratorio </tipotarea>
+  </tarea>
+  <tarea>
+    <codigo>aaaa </codigo>
+    <descripcion>aaaa </descripcion>
+    <hestimadas>3</hestimadas>
+    <explotacion>true</explotacion>
+    <tipotarea>Laboratorio </tipotarea>
+  </tarea>
+  <tarea>
+    <codigo>bbbb </codigo>
+    <descripcion>aaaa </descripcion>
+    <hestimadas>3</hestimadas>
+    <explotacion>true</explotacion>
+    <tipotarea>Laboratorio </tipotarea>
+  </tarea>
+  <tarea>
+    <codigo>EDA07-Ej1</codigo>
+    <descripcion>Ejercicio sobre listas ligadas</descripcion>
+    <hestimadas>3</hestimadas>
+    <explotacion>false</explotacion>
+    <tipotarea>Ejercicio</tipotarea>
+  </tarea>
+  <tarea>
+    <codigo>pruebalab4 </codigo>
+    <descripcion>probando... </descripcion>
+    <hestimadas>1</hestimadas>
+    <explotacion>true</explotacion>
+    <tipotarea>Laboratorio </tipotarea>
+  </tarea>
+</tareas>

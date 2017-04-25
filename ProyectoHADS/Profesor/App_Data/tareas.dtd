@@ -1,0 +1,9 @@
+<!ELEMENT tareas (tarea)+>
+<!ATTLIST tareas
+           xmlns:has CDATA #FIXED "http://ji.ehu.es/has">
+<!ELEMENT tarea (codigo,descripcion,hestimadas,explotacion,tipotarea)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT hestimadas (#PCDATA)>
+<!ELEMENT explotacion (#PCDATA)>
+<!ELEMENT tipotarea (#PCDATA)>

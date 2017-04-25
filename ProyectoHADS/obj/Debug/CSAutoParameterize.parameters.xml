@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="hads13dbConnectionString-Web.config Connection String" description="hads13dbConnectionString Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=tcp:hads13server.database.windows.net,1433;Initial Catalog=hads13db;Persist Security Info=True;User ID=hads13admin;Password=tigre.tigre13" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Julen\ Aja\\Documents\\Visual\ Studio\ 2012\\Projects\\ProyectoHADS\\ProyectoHADS\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='hads13dbConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="hads13dbConnectionString2-Web.config Connection String" description="hads13dbConnectionString2 Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=tcp:hads13server.database.windows.net,1433;Initial Catalog=hads13db;Persist Security Info=True;User ID=hads13admin@hads13server;Password=tigre.tigre13" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Julen\ Aja\\Documents\\Visual\ Studio\ 2012\\Projects\\ProyectoHADS\\ProyectoHADS\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='hads13dbConnectionString2']/@connectionString" />
+  </parameter>
+</parameters>

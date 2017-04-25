@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes" ?>
+<tareas  xmlns:has="http://ji.ehu.es/has">
+  <tarea>
+    <codigo>HAS17-Test1</codigo>
+    <descripcion>Test 5 de la asignatura</descripcion>
+    <hestimadas>1</hestimadas>
+    <explotacion>false</explotacion>
+    <tipotarea>examen</tipotarea>
+  </tarea>
+  <tarea>
+    <codigo>HAS17-Lab4</codigo>
+    <descripcion>Laboratorio 12 de la asignatura</descripcion>
+    <hestimadas>12</hestimadas>
+    <explotacion>true</explotacion>
+    <tipotarea>Laboratorio</tipotarea>
+  </tarea>
+<tarea>
+    <codigo>AS17-Test5</codigo>
+    <descripcion>Test 5 de la asignatura</descripcion>
+    <hestimadas>16</hestimadas>
+    <explotacion>false</explotacion>
+    <tipotarea>examen</tipotarea>
+  </tarea>
+</tareas>

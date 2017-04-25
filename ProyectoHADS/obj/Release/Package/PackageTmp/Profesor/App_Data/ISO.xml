@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<tareas>
+  <tarea>
+    <Codigo>12:14 </Codigo>
+    <Descripcion>probando </Descripcion>
+    <CodAsig>ISO </CodAsig>
+    <HEstimadas>0</HEstimadas>
+    <Explotacion>false</Explotacion>
+    <TipoTarea>Laboratorio </TipoTarea>
+  </tarea>
+  <tarea>
+    <Codigo>ISO-Lab1</Codigo>
+    <Descripcion>pruebaa</Descripcion>
+    <CodAsig>ISO</CodAsig>
+    <HEstimadas>12</HEstimadas>
+    <Explotacion>true</Explotacion>
+    <TipoTarea>Ejercicio</TipoTarea>
+  </tarea>
+  <tarea>
+    <Codigo>jule </Codigo>
+    <Descripcion>ju</Descripcion>
+    <CodAsig>ISO </CodAsig>
+    <HEstimadas>10</HEstimadas>
+    <Explotacion>true</Explotacion>
+    <TipoTarea>Examen </TipoTarea>
+  </tarea>
+  <tarea>
+    <Codigo>Tarea Prueba </Codigo>
+    <Descripcion>hola</Descripcion>
+    <CodAsig>ISO </CodAsig>
+    <HEstimadas>3</HEstimadas>
+    <Explotacion>false</Explotacion>
+    <TipoTarea>Examen </TipoTarea>
+  </tarea>
+</tareas>

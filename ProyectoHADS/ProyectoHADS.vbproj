@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{62891B57-A56F-483D-A977-F8EB16F5AD1B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ProyectoHADS</RootNamespace>
+    <AssemblyName>ProyectoHADS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ProyectoHADS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ProyectoHADS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=16.1.1.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ASP.NET AJAX Control Toolkit\Bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="conexionDB">
+      <HintPath>..\conexionDB\bin\Debug\conexionDB.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Administrador.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="iconos\man-walking-directions-button.png" />
+    <Content Include="iconos\set-timer-button.png" />
+    <Content Include="iconos\two-rows-and-three-columns-layout.png" />
+    <Content Include="Profesor\App_Data\Hads.xslt" />
+    <Content Include="Profesor\App_Data\HadsCodigo.xslt" />
+    <Content Include="Profesor\App_Data\HadsDescripcion.xslt" />
+    <Content Include="Profesor\App_Data\HadsHestimadas.xslt" />
+    <Content Include="Profesor\App_Data\HAS.xml" />
+    <Content Include="Profesor\App_Data\ISO.xml" />
+    <Content Include="Profesor\App_Data\SEG.xml" />
+    <Content Include="Profesor\App_Data\XSLTFile.xsl" />
+    <Content Include="cabecera.ascx" />
+    <Content Include="CambiarPassword2.aspx" />
+    <Content Include="Profesor\coordinador.aspx" />
+    <Content Include="Profesor\ExportarTareas.aspx" />
+    <Content Include="footer.ascx" />
+    <Content Include="iconos\add-label-button.png" />
+    <Content Include="iconos\back-arrow.png" />
+    <Content Include="iconos\black-envelope-email-symbol.png" />
+    <Content Include="iconos\download-button-1.png" />
+    <Content Include="iconos\download-button.png" />
+    <Content Include="iconos\exit-to-app-button.png" />
+    <Content Include="iconos\label-right-arrow-outline.png" />
+    <Content Include="iconos\password.png" />
+    <Content Include="iconos\poll-symbol-on-black-square-with-rounded-corners.png" />
+    <Content Include="iconos\upload-button.png" />
+    <Content Include="iconos\user-shape.png" />
+    <Content Include="iconos\users-social-symbol.png" />
+    <Content Include="Profesor\ImportarTareasDataset.aspx" />
+    <Content Include="Profesor\InsertarTarea.aspx" />
+    <Content Include="Alumno\InstanciarTarea.aspx" />
+    <Content Include="Alumno\menuAlumno.ascx" />
+    <Content Include="Profesor\menuProfesor.ascx" />
+    <Content Include="Profesor\Profesor.aspx" />
+    <Content Include="Alumno\TareasAlumno.aspx" />
+    <Content Include="Profesor\VercomoXSLThads.aspx" />
+    <Content Include="Profesor\VerEstadisticas.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Inicio.aspx" />
+    <Content Include="Registro.aspx" />
+    <Content Include="Confirmar.aspx" />
+    <Content Include="CambiarPassword.aspx" />
+    <Content Include="Alumno\Alumno.aspx" />
+    <Content Include="Profesor\TareasProfesor.aspx" />
+    <Content Include="Profesor\ImportarTareasXMLDocument.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Administrador.aspx.designer.vb">
+      <DependentUpon>Administrador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Administrador.aspx.vb">
+      <DependentUpon>Administrador.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="cabecera.ascx.designer.vb">
+      <DependentUpon>cabecera.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cabecera.ascx.vb">
+      <DependentUpon>cabecera.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CambiarPassword2.aspx.designer.vb">
+      <DependentUpon>CambiarPassword2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CambiarPassword2.aspx.vb">
+      <DependentUpon>CambiarPassword2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor\coordinador.aspx.designer.vb">
+      <DependentUpon>coordinador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor\coordinador.aspx.vb">
+      <DependentUpon>coordinador.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Profesor\ExportarTareas.aspx.designer.vb">
+      <DependentUpon>ExportarTareas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor\ExportarTareas.aspx.vb">
+      <DependentUpon>ExportarTareas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="footer.ascx.designer.vb">
+      <DependentUpon>footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="footer.ascx.vb">
+      <DependentUpon>footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profesor\ImportarTareasDataset.aspx.designer.vb">
+      <DependentUpon>ImportarTareasDataset.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor\ImportarTareasDataset.aspx.vb">
+      <DependentUpon>ImportarTareasDataset.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Profesor\InsertarTarea.aspx.designer.vb">
+      <DependentUpon>InsertarTarea.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor\InsertarTarea.aspx.vb">
+      <DependentUpon>InsertarTarea.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Alumno\InstanciarTarea.aspx.designer.vb">
+      <DependentUpon>InstanciarTarea.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Alumno\InstanciarTarea.aspx.vb">
+      <DependentUpon>InstanciarTarea.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Alumno\menuAlumno.ascx.designer.vb">
+      <DependentUpon>menuAlumno.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Alumno\menuAlumno.ascx.vb">
+      <DependentUpon>menuAlumno.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profesor\menuProfesor.ascx.designer.vb">
+      <DependentUpon>menuProfesor.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor\menuProfesor.ascx.vb">
+      <DependentUpon>menuProfesor.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Inicio.aspx.designer.vb">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.aspx.vb">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Profesor\Profesor.aspx.designer.vb">
+      <DependentUpon>Profesor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor\Profesor.aspx.vb">
+      <DependentUpon>Profesor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Registro.aspx.designer.vb">
+      <DependentUpon>Registro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registro.aspx.vb">
+      <DependentUpon>Registro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Confirmar.aspx.designer.vb">
+      <DependentUpon>Confirmar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Confirmar.aspx.vb">
+      <DependentUpon>Confirmar.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CambiarPassword.aspx.designer.vb">
+      <DependentUpon>CambiarPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CambiarPassword.aspx.vb">
+      <DependentUpon>CambiarPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alumno\Alumno.aspx.designer.vb">
+      <DependentUpon>Alumno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Alumno\Alumno.aspx.vb">
+      <DependentUpon>Alumno.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Alumno\TareasAlumno.aspx.designer.vb">
+      <DependentUpon>TareasAlumno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Alumno\TareasAlumno.aspx.vb">
+      <DependentUpon>TareasAlumno.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Profesor\TareasProfesor.aspx.designer.vb">
+      <DependentUpon>TareasProfesor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor\TareasProfesor.aspx.vb">
+      <DependentUpon>TareasProfesor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Profesor\VercomoXSLThads.aspx.designer.vb">
+      <DependentUpon>VercomoXSLThads.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor\VercomoXSLThads.aspx.vb">
+      <DependentUpon>VercomoXSLThads.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Profesor\VerEstadisticas.aspx.designer.vb">
+      <DependentUpon>VerEstadisticas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor\VerEstadisticas.aspx.vb">
+      <DependentUpon>VerEstadisticas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Profesor\ImportarTareasXMLDocument.aspx.designer.vb">
+      <DependentUpon>ImportarTareasXMLDocument.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor\ImportarTareasXMLDocument.aspx.vb">
+      <DependentUpon>ImportarTareasXMLDocument.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Web References\matriculas\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Profesor\App_Data\tareas.dtd" />
+    <None Include="My Project\PublishProfiles\proyectohads13 - FTP %283%29.pubxml" />
+    <None Include="My Project\PublishProfiles\proyectohads13 - Web Deploy %283%29.pubxml" />
+    <None Include="Profesor\App_Data\tareas.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\PublishProfiles\proyectohads13 - FTP %282%29.pubxml" />
+    <None Include="My Project\PublishProfiles\proyectohads13 - FTP.pubxml" />
+    <None Include="My Project\PublishProfiles\proyectohads13 - Web Deploy %282%29.pubxml" />
+    <None Include="My Project\PublishProfiles\proyectohads13 - Web Deploy.pubxml" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="packages.config" />
+    <Content Include="Web References\matriculas\comprobarmatricula.wsdl" />
+    <Content Include="Web References\matriculas\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\componenteCorreo\componenteCorreo.vbproj">
+      <Project>{9ec69a28-a256-48fa-a3c8-f28a3abf500a}</Project>
+      <Name>componenteCorreo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Servicios web\Servicios web.vbproj">
+      <Project>{6b5d3fc1-7c77-47ba-be56-7409b3b09e90}</Project>
+      <Name>Servicios web</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://ehusw.es/jav/ServiciosWeb/comprobarmatricula.php%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\matriculas\</RelPath>
+      <UpdateFromURL>http://ehusw.es/jav/ServiciosWeb/comprobarmatricula.php%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>ProyectoHADS_matriculas_Matriculas</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49501/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

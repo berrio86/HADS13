@@ -1,0 +1,688 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+	font: 16px Georgia, serif;
+
+}
+b						{font: 16px Georgia, serif;}
+
+a { text-decoration: none; }
+
+#page-wrap				{margin: 0 auto; color: white;}
+#page-wrap >.main 	{
+  /*border: 0px solid black;*/ 
+  padding: 0;
+	margin-bottom: 0; 
+  color: black;
+	//overflow-y: auto;
+}
+
+/*inakik gehitutakoa*/
+#gorputza {
+	position: relative;
+}
+.argazkia {
+	position:absolute;
+	top:10;
+	right:10;
+}
+
+.g-recaptcha{
+	width: 30%;
+	margin: auto;
+	text-align:center;
+}
+
+
+/*inakik gehitutakoa*/
+
+section > div				{padding: 20px;}
+header			{
+  background: #dbffff; 
+  background: linear-gradient(#dbffff, #c1ccff); /* Standard syntax */
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+}
+nav	{
+  background: #c1ccff; 
+  text-align: center;
+  overflow-x: hidden;
+  border:solid;
+  border-width: 0px 1px 0px 0px;
+}
+section {
+	overflow-y: auto;
+  background: #FFF; 
+  text-align: center;
+  vertical-align: middle;
+  border: solid;
+  border-width: 1px 1px 1px 0px;
+}
+footer {
+  background: #dbffff; 
+  background: linear-gradient(#c1ccff, #dbffff);
+  text-align: center;
+  vertical-align: middle;
+}
+nav span { 
+	margin: 0px 10px 0px 0px;
+	width: 100%;
+	display: inline-block;
+	font-size:22px;
+}
+.kredituak {
+	header			{background: #e2f; text-align: center;}
+	nav				{background: #aaa; text-align: center;}
+	section 		{background: #fff; text-align: center;}
+	footer					{background: #ef3; text-align: center;} /*auskalo*/
+}
+
+#ErrorMsgs          		 { color: #f61; font-size: smaler}
+
+/*** Table Styles **/
+
+.table-fill {
+  background: white;
+  border-radius:3px;
+  border-collapse: collapse;
+  height: 320px;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+}
+ 
+th {
+  color:#D5DDE5;;
+  background:#1b1e24;
+  border-bottom:4px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size:14px;
+  font-weight: 100;
+  padding:8px;
+  text-align:left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+}
+
+th:first-child {
+  border-top-left-radius:3px;
+}
+ 
+th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+  
+tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom-: 1px solid #C1C3D1;
+  color:#666B85;
+  font-size:12px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+ 
+tr:hover td {
+  background:#4E5066;
+  color:#FFFFFF;
+  border-top: 1px solid #22262e;
+  border-bottom: 1px solid #22262e;
+}
+ 
+tr:first-child {
+  border-top:none;
+}
+
+tr:last-child {
+  border-bottom:none;
+}
+ 
+tr:nth-child(odd) td {
+  background:#EBEBEB;
+}
+ 
+tr:nth-child(odd):hover td {
+  background:#4E5066;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+ 
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+ 
+td {
+  background:#FFFFFF;
+  padding:10px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:16px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+
+th.text-left {
+  text-align: left;
+}
+
+th.text-center {
+  text-align: center;
+}
+
+th.text-right {
+  text-align: right;
+}
+
+td.text-left {
+  text-align: left;
+}
+
+td.text-center {
+  text-align: center;
+}
+
+td.text-right {
+  text-align: right;
+}
+
+/*** END OF Table Styles **/
+
+/* Jonek gehitutakoa */
+
+.mapa {
+  width:90%;
+  height:500px; 
+  margin:auto; 
+  border:solid; 
+  border-width:2px 2px 2px 2px; 
+  padding: 0px 0px 0px 0px;
+}
+
+.mapa:hover {
+  box-shadow: 0px 0px 50px #888888;
+}
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-left: 14px solid black;
+  float:right; /*
+  width: 0;
+   height: 0;
+   border-left: 32px solid black;
+   border-top: 14px solid transparent;
+   border-bottom: 14px solid transparent;
+   float:right;*/
+}
+
+nav span:hover {
+    color: black;
+    background-color: white;
+}
+
+.act-sel {
+  width:100%;
+  background-color: white;
+  border:solid;
+  border-width: 1px 0px 1px 1px;
+}
+
+nav span {
+  text-decoration: none;
+  text-align:left;
+  color:black;
+  border: none;
+  border-width: 1px;
+  //background: #c1e1ff;
+  padding:4px;
+}
+
+footer b {
+	vertical-align: middle;
+}
+
+footer img {
+  opacity:0.5;
+  padding-right:16px;
+  float:right;
+  margin: 5px 5px 5px 5px;
+}
+
+footer img:hover {
+   opacity: 1.0;
+}
+@media only screen and (max-width:766px) {
+	header img.botoia {
+		display:none;
+		width:1px;
+		padding-right:1px;
+  		padding-top:1px;
+	}
+  header img.botoia2 {
+    display:none;
+    width:1px;
+    padding-right:1px;
+      padding-top:1px;
+  }
+	.desktopSoilik {
+		display: none;
+		max-width:1px;
+		max-height:1px;
+	}
+	table {
+		width: 100%;
+	}
+  .mapadivl {
+    width:100%; 
+    float:left;
+  }
+  .mapadivr {
+    width:100%; 
+    float:right;
+  }
+}
+
+@media only screen and (min-width:767px) {
+	header img.botoia {
+    max-height: 80%;
+    max-width:25%;
+	  padding-right:16px;
+	}
+  header img.botoia2 {
+    width:56px;
+    height: 56px;
+    padding-right:16px;
+    padding-top:8px;
+  }
+  table {
+    width: 95%;
+    margin:auto;
+  }
+  .mapadivl {
+    width:50%; 
+    float:left;
+  }
+  .mapadivr {
+    width:50%; 
+    float:right;
+  }
+}
+
+header img.botoia { /*kendu txikitzen den einean*/
+  float:right;
+  opacity:0.5;
+  margin-top:2px;
+  margin:auto;
+}
+header img.botoia2 { /*kendu txikitzen den einean*/
+  float:right;
+  margin-top:22px;
+}
+
+header img.botoia:hover {
+  opacity:1.0;
+}
+
+.logo { /*egiteko*/
+  height:90%;
+  max-width:50%;
+  position:relative;
+  margin:auto;
+}
+
+footer b {
+  margin:auto;
+}
+
+.botoia-left {
+  text-align: left; 
+  float:left; 
+  max-width: 45%; 
+  border-style: none; 
+  padding: 5px;
+}
+
+.botoia-right {
+  text-align: right; 
+  float:right; 
+  max-width: 45%; 
+  border-style: none;
+  border-width: 1px;
+  padding: 7px;
+  color: black;
+  background: #CCCCCC;
+  margin-right:3px;
+}
+
+.botoia-right > a {
+  text-decoration: none;
+}
+
+.botoia-right:hover {
+  background-color: white; 
+}
+
+.try-again {
+  color:#f2f2f2;
+  text-decoration:underline;
+  cursor:pointer;
+	text-align:center;
+}
+
+/* nabigazio barra hasiera */
+#main {
+  width: 100%;
+  display: block;
+  float: left;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.navigation {
+  display: block;
+  margin: 20px 0;
+  background: #009788;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  border-radius: 3px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.navigation li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  font-size: 17px;
+  color: #def1f0;
+}
+
+.navigation li a {
+  padding: 10px 15px;
+  font-size: 17px;
+  color: #def1f0;
+  display: inline-block;
+  outline: 0;
+  font-weight: 400;
+}
+
+.navigation li:hover ul.dropdown { display: block; }
+
+.navigation li ul.dropdown {
+  position: absolute;
+  display: none;
+  width: 200px;
+  background: #00695b;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  padding-top: 0;
+}
+
+.navigation li ul.dropdown img {
+  width:76px;
+  height:76px;
+}
+
+.navigation li ul.dropdown li {
+  display: block;
+  list-style-type: none;
+}
+
+.navigation li ul.dropdown li a {
+  padding: 10px;
+  font-size: 15px;
+  color: #fff;
+  display: block;
+  border-bottom: 1px solid #005c4d;
+  font-weight: 400;
+}
+
+.navigation li ul.dropdown li:last-child a { border-bottom: none; }
+
+.navigation li:hover a {
+  background: #00695b;
+  color: #fff !important;
+}
+
+.navigation li:first-child:hover a { border-radius: 3px 0 0 3px; }
+
+.navigation li ul.dropdown li:hover a { background: #56b5ae; }
+
+.navigation li ul.dropdown li:first-child:hover a { border-radius: 0; }
+
+.navigation li:hover .arrow-down { border-top: 5px solid #fff; }
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #def1f0;
+  position: relative;
+  top: 15px;
+  right: -5px;
+  content: '';
+}
+ @media only screen and (max-width:767px) {
+
+.navigation {
+  background: #fff;
+  width: 200px;
+  height: 100%;
+  display: block;
+  position: fixed;
+  left: -200px;
+  top: 0px;
+  transition: left 0.3s linear;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.navigation.visible {
+  left: 0px;
+  transition: left 0.3s linear;
+}
+
+.nav_bg {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: #009788;
+  padding: 12px 0 0 10px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.nav_bar {
+  display: inline-block;
+  vertical-align: middle;
+  height: 50px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.nav_bar span {
+  height: 2px;
+  background: #fff;
+  margin: 5px;
+  display: block;
+  width: 20px;
+}
+
+.nav_bar span:nth-child(2) { width: 20px; }
+
+.nav_bar span:nth-child(3) { width: 20px; }
+
+/*.navigation ul { padding-top: 50px; }*/
+
+.navigation li { display: block; }
+
+.navigation li a {
+  display: block;
+  color: #505050;
+  font-weight: 500;
+}
+
+.navigation li:first-child:hover a { border-radius: 0; }
+
+.navigation li ul.dropdown { position: relative; }
+
+.navigation li ul.dropdown li a {
+  background: #00695b !important;
+  border-bottom: none;
+  color: #fff !important;
+}
+
+.navigation li:hover a {
+  background: #009788;
+  color: #fff !important;
+}
+
+.navigation li ul.dropdown li:hover a {
+  background: #56b5ae !important;
+  color: #fff !important;
+}
+
+.navigation li ul.dropdown li a { padding: 10px 10px 10px 30px; }
+
+.navigation li:hover .arrow-down { border-top: 5px solid #fff; }
+
+.arrow-down {
+  border-top: 5px solid #505050;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.opacity {
+  background: rgba(0,0,0,0.7);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+}
+ @media only screen and (max-width:1199px) {
+
+.container { width: 96%; }
+}
+@media only screen and (min-width:767px) {
+  .bakarrikMugikorra {
+    visibility: hidden;
+    height:1px;
+  }
+}
+/* nabigazio barra amaiera */
+
+/* izarren puntuazioa hasiera */
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+fieldset, label { margin: 0; padding: 0; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "?";
+}
+
+.rating > .half:before { 
+  content: "?";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+/* izarren puntuazioa amaiera */.
+
+/* tooltip hasiera */
+a.tooltip {outline:none; }
+a.tooltip strong {line-height:30px;}
+a.tooltip:hover {text-decoration:none;} 
+a.tooltip span {
+    z-index:10;
+    display:none; 
+    padding:14px 20px;
+    margin-top:30px; 
+    margin-left:28px;
+    width:300px; 
+    line-height:16px;
+}
+a.tooltip:hover span {
+    display:inline; 
+    position:absolute; 
+    right:120px;
+    color:#111;
+    border:1px solid #DCA; 
+    background:#fffAF0;
+}
+/* .callout {z-index:20;position:absolute;top:30px;border:0;left:-12px;} */
+    
+/*CSS3 extras*/
+a.tooltip span
+{
+    border-radius:4px;
+    box-shadow: 5px 5px 8px #CCC;
+}
+/* tooltip amaiera */
